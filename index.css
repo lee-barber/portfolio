@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+}
+
+.navbar	{
+	width: 70%;
+	margin: 0px auto;
+	background-color: slategrey;
+	text-decoration: none
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0
+	text-decoration: none;
+}
+
+.navbar ul li {
+	display: inline-block;
+	text-decoration: none
+}
+
+.navbar li {
+	margin-right: 30px;
+}
+
+.navbar a {
+	text-decoration: none;
+}
+
+.navbar ul li a:hover {
+	background-color: oldlace;
+}
+
+a:visited {
+	color: blue;
+}
+
+.title {
+	/*border: 2px solid red;*/
+	background-color: grey;
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	margin: 0px auto;
+}
+
+.title:hover {
+	border-radius: 20%
+	background-color: orange;
+}
+
+.wrapper {
+	/*border: 2px solid red;*/
+	width: 80%
+	margin: 0 auto;
+}
+
+.banner {
+	background-image: url("./philly.jpg");
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+}
+
+img {
+	float: left;
+	margin-right: 10px;
+}
+
+.one {
+	width: 100px;
+	height: 100px
+	;
+}
+
+@media all and (max-width: 480px){
+	.wrapper {
+		width: 80%;
+		margin: 100px auto;
+	}
+	.block {
+		float: none;
+		margin-left: 50px;
+		margin-top: 10px;
+	}
+}
+
+@media all and (min-width: 481px) and (max-width: 767px){
+	.wrapper {
+		width: 80%;
+	}
+
+	.block {
+	width: 100px;
+	height: 50px;
+	background-color: teal;
+	float: left;
+	margin: 5px 0 5px 50px;
+	}
+}
+
+@media all and (min-width: 482px) and (max-width: 600px){
+	.wrapper {
+		width: 80%;
+	}
+
+	.block {
+	width: 100px;
+	height: 50px;
+	background-color: teal;
+	float: none;
+	margin: 5px 0 5px 50px;
+	}
+
+}
+
+@media all and (min-width: 768px) and (max-width: 992px){
+
+}
+
