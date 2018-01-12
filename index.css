@@ -47,6 +47,7 @@
 	background-color: #0A0B14;
 }
 
+/*Make the navigation bar line items have shrink animation*/
 a:link {
     display: inline-block;
     font-size: 34px;
@@ -62,7 +63,7 @@ a:hover {
 /*Keep navigation bar line item links the same color regardless if link was already clicked*/
 
 /* unvisited link */
-a:link {
+a:link2 {
     color: #929FAD;
 }
 
